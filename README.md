@@ -21,6 +21,6 @@ This repository contains the Codveda tasks I completed for the Python Developmen
 ## Credit
 Special thanks to Codveda Technologies for the opportunity to complete this internship program. 
 
-Credit: [Shingai Dzinotyiweyi](https://github.com/C-CREAD)
+Created by: [Shingai Dzinotyiweyi](https://github.com/C-CREAD)
 
 Source Content: [Codveda Technologies](https://codveda.com/)
