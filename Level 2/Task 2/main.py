@@ -78,10 +78,11 @@ for table in soup.find_all('table'):
 
 if all_teams:
 
-    # Create new .csv file
-    with open("NBA_Team_Salary.csv", "a+", newline="", encoding="utf-8") as write_file:
+    # Create new .csv file and save the results
+    with open("NBA_Team_Salary.csv", "w+", newline="", encoding="utf-8") as write_file:
         write = csv.DictWriter(write_file, fieldnames=field_names, delimiter=',')
         write.writeheader()
         write.writerows(all_teams)
         print("Saved to NBA_Team_Salary.csv")
+
 
